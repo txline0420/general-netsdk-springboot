@@ -1,0 +1,49 @@
+{
+  "UTC": {
+    "directRead": 1
+  },
+  "stuObject": {
+    "directRead": 0,
+    "object": {
+      "stPicInfo": {
+        "directRead": 0,
+        "object": {
+          "dwOffSet": {
+            "directRead": 1
+          },
+          "dwFileLenth": {
+            "directRead": 1
+          }
+        }
+      }
+    }
+  },
+  "stuCandidates": {
+    "directRead": 0,
+    "arrayField": 1,
+    "arraySizeRefer": "nCandidateNum",
+    "object": {
+      "stPersonInfo": {
+        "directRead": 0,
+        "object": {
+          "szFacePicInfo": {
+            "directRead": 0,
+            "arrayField": 1,
+            "arraySizeRefer": "wFacePicNum",
+            "object": {
+              "dwOffSet": {
+                "directRead": 1
+              },
+              "dwFileLenth": {
+                "directRead": 1
+              }
+            }
+          }
+        }
+      },
+      "bySimilarity": {
+        "directRead": 1
+      }
+    }
+  }
+}

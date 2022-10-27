@@ -1,0 +1,6 @@
+server:
+  port: 40010
+
+spring:
+  application:
+    name: general-netsdk-springboot
