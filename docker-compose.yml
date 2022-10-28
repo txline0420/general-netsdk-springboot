@@ -1,0 +1,12 @@
+version: '3.9'
+services:
+  activemq-springboot:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: senergy/general-netsdk-springboot:22.10.28
+    container_name: general-netsdk
+    restart: always
+    privileged: true
+    ports:
+      - 40010:40010
